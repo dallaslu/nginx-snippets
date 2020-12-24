@@ -21,7 +21,7 @@ server {
 	include	conf.d/snippets/ssl-hsts.conf;
 	include	conf.d/snippets/ssl-security.conf;
 	include	conf.d/snippets/static-expires.conf;
-  include	conf.d/snippets/php.conf;
+	include	conf.d/snippets/php.conf;
 
 	access_log off;
 }

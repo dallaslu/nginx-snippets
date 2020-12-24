@@ -1,0 +1,10 @@
+#ssl_stapling_responder http://127.0.0.1:2020;
+
+# RSA
+#ssl_certificate /etc/nginx/certs/example.com.fullchain.cer;
+#ssl_certificate_key     /etc/nginx/certs/example.com.key;
+#ssl_trusted_certificate /etc/nginx/certs/example.com.fullchain.cer;
+
+# ECC
+#ssl_certificate /etc/nginx/certs/ecc/example.com.fullchain.cer;
+#ssl_certificate_key     /etc/nginx/certs/ecc/example.com.key;
